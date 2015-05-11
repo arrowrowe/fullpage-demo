@@ -13,13 +13,30 @@
     </head>
     <body>
 
-        <div class="row text-center">
-            A demo for the wonderful great <a href="https://github.com/alvarotrigo">alvarotrigo</a> / <a href="https://github.com/alvarotrigo/fullPage.js/">fullPage.js</a>.
+        <div id="fullpage">
+            <div class="section">
+                <div class="row text-center">
+                    <p>A demo for the wonderful great <a href="https://github.com/alvarotrigo">alvarotrigo</a> / <a href="https://github.com/alvarotrigo/fullPage.js/">fullPage.js</a>.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="slide">
+                    <div class="row text-center">
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="row text-center">
+                        <p>Slides!</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
         <script>$(document).foundation();</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.5/jquery.fullPage.min.js"></script>
+        <script>$(document).ready(function () { $('#fullpage').fullpage(); });</script>
     </body>
 </html>
