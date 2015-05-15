@@ -1,0 +1,40 @@
+#fullpage {
+    #slide {
+        &1 {
+            background-color: red;
+            color: white;
+        }
+        &2 {
+            background-color: orange;
+            color: black;
+        }
+        &3 {
+            background-color: yellow;
+            color: black;
+        }
+        &4 {
+            background-color: #5DE291;
+            color: black;
+        }
+        &5 {
+            background-color: green;
+            color: white;
+        }
+        &6 {
+            background-color: blue;
+            color: white;
+        }
+        &7 {
+            background-color: purple;
+            color: white;
+        }
+        &8 {
+            background-color: black;
+            color: white;
+        }
+        &9 {
+            background-color: white;
+            color: black;
+        }
+    }
+}
