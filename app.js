@@ -3,6 +3,7 @@ $(document).ready(function () {
     $('#fullpage').show().fullpage({
         controlArrows: false,
         loopHorizontal: false,
+        scrollingSpeed: 400,
         onSlideLeave: function (anchorLink, index, slideIndex, direction) {
             fullPageSlideIndex = slideIndex + (direction === 'left' ? -1 : 1);
         },
